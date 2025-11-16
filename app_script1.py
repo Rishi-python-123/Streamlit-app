@@ -75,6 +75,6 @@ if name:
         st.badge("Energized!")
 
 st.markdown("---")
-st.caption("Built with ❤️ using Streamlit, f"                                              {time}")
+st.caption(f"Built with ❤️ using Streamlit                                              {time}")
 
 # run with: streamlit run c:/Rishi_Python/HelloWorld.py
