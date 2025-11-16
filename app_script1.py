@@ -4,6 +4,8 @@ import time
 
 st.set_page_config(page_title="Welcome!", page_icon="😄", layout="centered")
 
+time = time.time()
+
 status_placeholder = st.empty()
 
 st.title("Welcome! 😄")
@@ -73,6 +75,6 @@ if name:
         st.badge("Energized!")
 
 st.markdown("---")
-st.caption("Built with ❤️ using Streamlit")
+st.caption("Built with ❤️ using Streamlit, f"                                              {time}")
 
 # run with: streamlit run c:/Rishi_Python/HelloWorld.py
